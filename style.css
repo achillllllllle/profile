@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@media (max-width: 2000px) {
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 960px) {
+
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 650px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+body {
+  background-color: #EEEDEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: darkslategray;
+  font-size: 17px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.title-text {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  line-height: 1em
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1em;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 1em;
+}
+
+p {
+  margin: 40px;
+  line-height: 25px;
+}
+
+a {
+  margin: 6px;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  padding: 40px;
+  margin: 20px 0px;
+}
+
+.list-inline>li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 25px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline i {
+  color: rgb(230, 230, 230)
+}
+
+.btn-blue {
+  color: white;
+  text-decoration: none;
+  background-color: #6B72E1;
+}
